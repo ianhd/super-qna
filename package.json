@@ -1,0 +1,35 @@
+{
+  "name": "super-qna",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianhd/super-qna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianhd/super-qna/issues"
+  },
+  "homepage": "https://github.com/ianhd/super-qna#readme",
+  "devDependencies": {
+    "source-map-loader": "^0.2.4"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.2",
+    "firebase": "^7.14.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
